@@ -6,6 +6,8 @@ const zeroMatrix = (matrix) => {
     // pass r into method to convert row to 0s, return matrix
     // pass c into method to convert col to 0s, return matrix
     // return matrix
+
+    //O(N^2) time, O(N^2)
     let zeroCds = {};
     let id = 0;
     for (let row = 0; row < matrix.length; row++) {
